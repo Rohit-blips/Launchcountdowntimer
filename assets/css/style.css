@@ -109,6 +109,7 @@ main{
     padding-bottom: 50px;
     letter-spacing: 5px;
     font-size: 22px;
+    text-align: center;
 }
 
 .contador{
@@ -191,6 +192,113 @@ main{
     font-weight: bold;
     letter-spacing: 5px;
     margin-top: 20px;
+}
+
+@media (max-width: 700px){
+    .container{
+        margin-top: -100px;
+    }
+    .contador{
+        max-width: calc((145px * 4) + 30px);
+        justify-content: space-around;
+    }
+
+    .card, .card-info{
+        width: 130px !important;
+        height: 140px !important;
+    }
+    .card span{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--Azul-escuro-dessaturado);
+        height: 100%;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width: 575px){
+    .container{
+        margin-top: -80px;
+    }
+    .contador{
+        max-width: calc((145px * 4) + 30px);
+        justify-content: space-around;
+    }
+
+    .card, .card-info{
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+}
+
+@media (max-width: 495px){
+    .container{
+        margin-top: 0px;
+    }
+    .contador{
+        max-width: 100%;
+        justify-content: space-around;
+    }
+
+    .card, .card-info{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .card span{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--Azul-escuro-dessaturado);
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .title{
+        max-width: 320px;
+    }
+
+}
+
+
+@media (max-width: 400px){
+    span{
+        font-size: 44px;
+        font-weight: bold;
+        color: var(--Vermelho-suave);
+    }
+
+    .contador{
+        max-width: 100%;
+        justify-content: space-around;
+    }
+
+    .card, .card-info{
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .card, .card-info{
+        font-size: 10px;
+    }
+
+    .card span{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--Azul-escuro-dessaturado);
+        height: 100%;
+        border-radius: 10px;
+    }
 }
 
 .sociais{
