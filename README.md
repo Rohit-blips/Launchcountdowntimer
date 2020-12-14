@@ -1,6 +1,6 @@
 # Launchcountdowntimer
 
-![Design preview for the Launchcountdowntimer with dark theme and features grid challenge](./Challenge/design/desktop-design.jpg)
+![Design preview for the Launchcountdowntimer with dark theme and features grid challenge](./challenge/design/desktop-design.jpg)
 
 Launchcountdowntimer is a website created for the <a href="https://www.frontendmentor.io">Frontend Mentor</a> challenge.
 
