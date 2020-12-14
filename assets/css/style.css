@@ -227,6 +227,9 @@ main{
 }
 
 @media (max-width: 575px){
+    body::before{
+        background-size: 1400px auto;
+    }
     .container{
         margin-top: -80px;
     }
@@ -275,6 +278,7 @@ main{
 
 
 @media (max-width: 400px){
+
     span{
         font-size: 44px;
         font-weight: bold;
